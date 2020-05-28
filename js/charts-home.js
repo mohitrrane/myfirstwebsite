@@ -1,3 +1,9 @@
+ function deleterow(xy){
+    document.getElementById(xy).style.display = "none";
+     }
+
+
+
 $(document).ready(function () {
 
     'use strict';
