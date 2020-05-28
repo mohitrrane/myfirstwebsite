@@ -52,8 +52,57 @@
                       <input id="login-password" type="password" name="loginPassword" required data-msg="Please enter your password" class="input-material">
                       <label for="login-password" class="label-material">Password</label>
                     </div>
+                   <!--  <div class="form-group">
+                      <input id="forgot-password" type="text" name="forgotPassword" required data-msg="Please enter your email" class="input-material">
+                      <label for="forgot-password" class="label-material">Forgot Password</label>
+                    </div> -->
                     <button type="submit" class="btn btn-primary">Login</button>
-                  </form><a href="#" class="forgot-pass">Forgot Password?</a><br><small>Do not have an account? </small><a href="register.html" class="signup">Signup</a>
+                  </form>
+                  <div class = "forgot"><h4 data-toggle="modal" data-target="#myModal" >Forgot Password?</h4></div>
+
+                  <div id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" class="modal fade text-left" style="display: none;" aria-hidden="true">
+                        <div role="document" class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header"><strong id="exampleModalLabel" class="modal-title"> Provide you registered E-mail </strong>
+                              <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+                            </div>
+
+
+
+                            <!-- Modal Body -->
+
+
+
+
+                            <div class="modal-body">
+                              <div class="messages-block block">
+                                  <div class="messages">
+
+
+                                   <form method="get" class="form-validate mb-4">
+                                      <div class="form-group">
+                                        <input id="login-username" type="text" name="email" required data-msg="Please enter your email" class="input-material">
+                                        <label for="email" class="label-material">E-Mail</label>
+                                      </div>
+                                    
+                                    
+                                      <button type="submit" class="btn btn-primary">Submit</button>
+                                    </form> 
+                                </div>
+                              </div>  
+                            </div>
+
+
+
+
+
+                            <!-- Modal body end -->
+                          </div>
+                        </div>
+                      </div>
+
+                  <br><small>Do not have an account? </small><a href="register.html" class="signup">Signup</a>
+                
                 </div>
               </div>
             </div>

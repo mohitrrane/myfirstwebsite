@@ -1,0 +1,90 @@
+/* your styles go here */
+nav#sidebar.avatar{
+	height: 60%;
+
+}
+.not-in-feed{
+	display: none;
+}
+.comment-div{
+	height: 30px;
+	margin: 0 auto;
+}
+.comment-box{
+	height: 40px;
+}
+/*.comment-text{
+	text-align: left !important;*/
+}
+.center-text{
+	text-align: center;
+}
+.post-div{
+	padding: 16px;
+	padding-bottom: 0px;
+}
+.post-text{
+	padding: 0px 30px;
+}
+.comment1{
+	margin-top: 5px;  
+	text-align: center;
+	padding: 0px;
+	background: #484848;
+	color: #1c1c1c;
+	transition: 0.2s ease;
+	width: -moz-available; 
+	width: -webkit-fill-available;
+	width: stretch;
+}
+.comment1:hover{
+	background-color: #926969;
+}
+.comment-text{
+	margin: 0px;
+	font-size: 110%;
+	padding: 5px;
+}
+
+/*first login*/
+
+.first-login-page-content{
+	width: 100%;
+}
+
+.first-login-dp-div{
+	display: block;
+	background: #22252a;
+	padding: 10px;
+}
+.first-login-dp{
+	margin: 0px auto;
+	padding-top: 20px;
+	width: 130px;
+}
+.first-login-name{
+	text-align: center;
+	padding-top: 30px;
+}
+.welcome{
+	margin: 0;
+	text-align: center;
+	background: #8AFFA7;
+	color:     #000;
+}
+
+
+/*login page*/
+
+.forgot{
+	height: 30px;
+	border-radius: 2px;
+	padding: 1px;
+	width: max-content;
+	transition: 0.2s ease;
+}
+
+.forgot:hover{
+	background: #926969;
+	color: #FFFFFF;
+}
