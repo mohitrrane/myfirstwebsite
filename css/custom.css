@@ -3,6 +3,9 @@ nav#sidebar.avatar{
 	height: 60%;
 
 }
+.modal-title{
+	color: #FFFFFF;
+}
 .not-in-feed{
 	display: none;
 }
